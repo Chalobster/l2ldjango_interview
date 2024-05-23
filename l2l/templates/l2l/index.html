@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="l2l">
     <meta name="generator" content="">
     <title>Sample Web App</title>    
 
@@ -57,11 +57,8 @@
           <p class="lead fw-normal">Yes this is a rip-off from one of Bootstrap's example html pages.</p>
           <p class="lead fw-normal">Today's date is: {{ now }}</p>
           <p class="lead fw-normal">Today's ISO date is: {{ iso }}</p>
-          <p class="lead fw-normal">Date test is: {{ now|date:"M, d Y" }}</p>
-
           <p class="lead fw-normal">Today's date from a date is: {{ now|l2l_dt }}</p>
           <p class="lead fw-normal">Today's date from a string is: {{ iso|l2l_dt }}</p>
-
           <a class="btn btn-outline-secondary" href="#">Coming soon</a>
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
